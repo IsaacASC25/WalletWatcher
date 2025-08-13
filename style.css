@@ -1,0 +1,179 @@
+.fc-toolbar-title {
+    font-family: 'Courier New';
+    color: black;
+    flex-grow: 1;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.fc {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    max-height: 700px;
+    margin: auto;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 90vh;
+    padding-top: 10px
+}
+.fc-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#eventReport {
+float:right; 
+    width: 100%;
+    max-width: 300px;
+}
+
+#eventAdd {
+float:left;
+ width: 100%;
+    max-width: 300px;
+}
+
+#eventAdd, #eventReport, .fc-toolbar {
+    padding-top: 60px;
+     font-family: 'Courier New';
+}
+
+
+.top-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: #808080;
+  padding: 0 20px;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; 
+}
+
+.main-header .logo {
+  width: 100%;
+  max-width: 60px;
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.wallet-watchers {
+  display: flex;
+  flex-direction: column; 
+  font-weight: bold;
+  font-family: 'Courier New';
+  color: #fff;
+  font-size: 20px;
+  margin-left: 45px;
+}
+
+.about-us {
+  font-family: 'Courier New';
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin-left:30px;
+}
+
+.faq {
+  font-family: 'Courier New';
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin-left:30px;
+}
+
+.contacts {
+  font-family: 'Courier New';
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin-left:30px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.main-header .Dinosaur {
+ width: 100%;
+  max-width: 60px;
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.main-header .Lines {
+   width: 100%;
+  max-width: 60px;
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.main-header .Setting {
+   width: 100%;
+  max-width: 60px;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  margin-left: 60px; 
+}
+
+
+.left-side, .right-side {
+  display: flex;
+  align-items: center;
+}
+
+
+.right-side img {
+  margin-left: 10px; 
+  
+}
+
+.right-column {
+  float: right;
+  width: 100%;
+  max-width: 300px;
+}
+
+#reportResults {
+  margin-top: 20px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  font-family: 'Courier New';
+}
+
+#reportResults h4 {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.report-item {
+  padding: 4px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 6px;
+  background: #808080;
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Courier New';
+  cursor: pointer;
+}
+
+.btn:hover { background: #b1b1b1; }
+
+.btn:focus-visible { outline: 2px solid #000; outline-offset: 2px; }

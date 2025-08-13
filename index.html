@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <title>Your Calendar</title>
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.19/index.global.min.js'></script>
+    <script defer src="categories.js"></script>
+    <script defer src="main.js"></script>
+    <link rel = "stylesheet" href="style.css">
+    <link rel=  "stylesheet" href="responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+<header class="main-header">
+  <div class="top-line">
+    <div class="left-side">
+    <a href="index.html" class="logo-link">
+      <img class="logo" src="Logo.png" alt="Company logo">
+    </a>
+    <div class="wallet-watchers">
+      <div class="bold-text">
+        <a class="btn" href="homepage.html">Wallet Watchers</a>
+      </div>
+    </div>
+
+    <div class="about-us">
+      <a class="btn">About Us</a>
+    </div>
+
+    <div class="faq">
+      <a class="btn">FAQ</a>
+    </div>
+    <div class="contacts">
+      <a class="btn">Contacts</a>
+    </div>
+
+  </div>
+
+  <div class="right-side">
+    <img class="Setting" src="Setting.png" alt="Company logo">
+    <img class="Lines" src="3lines.png" alt="Company logo">
+    <img class="Dinosaur" src="Dinosaur.png" alt="Company logo">
+</div>
+</div>
+</header>
+
+    
+     <main class="main-content">
+       <form id="eventAdd">
+            <h3>Expenses & Income</h3>
+            <select id="eventTitle" required>
+            </select>
+            <!--<input type="text" id="eventDesc" placeholder="Decription" required>-->
+            <input type="text" id="eventAmount" placeholder="Amount" required>
+            <input type="date" id="eventDate" placeholder="Date" required>
+            
+            <button type="submit">Add Expense</button>
+        </form>
+
+        <div class="right-column">
+          <form id="eventReport">
+            <h3>Analysis</h3>
+            <input type="date" id="startDate" placeholder="Start Date" required>
+            <input type="date" id="endDate" placeholder="End Date">
+            <button type="submit">Generate Report</button>
+          </form>
+
+          <div id="reportResults"></div>
+        </div>
+     </main>
+
+     <footer class="main-footer">
+
+     </footer>
+     
+    
+<section>
+  <div class="calender">
+    <div id='calendar'>
+
+    </div>
+  </div>
+</section>
+  </body>
+  
+</html>
