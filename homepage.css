@@ -1,0 +1,141 @@
+.login-button {
+  background-color: #82c8e5;
+  padding: 10px 20px;
+  color: white;
+  font-family: 'Courier New';
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 20px;
+  font-size: 15px;
+  transition: transform 0.2s
+}
+
+.login-button:hover {
+  background-color: #6daacd; 
+  border-radius: 4px;
+  transform: scale(0.9);
+}
+
+.first-page {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh;
+  text-align: center;  
+}
+
+.first-page h1 {
+  font-family: 'Courier New';
+  font-weight: bold;
+  font-size: 80px;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0;
+  display: inline-block;
+  width: 0;
+  border-right: .15em solid black; 
+  animation: 
+    typing 5s steps(35, end) forwards,
+    blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  0%, 100% { border-color: transparent; }
+  50% { border-color: black; }
+}
+
+.first-page p {
+  font-family: 'Courier New';
+  font-size: 20px;
+}
+.Start {
+  align-items: center;
+  background-color: #A020F0;
+  padding: 18px 45px;
+  color: white;
+  font-family: 'Courier New';
+  font-weight: bold;
+  border-radius: 10px;
+  margin-left: 20px;
+  font-size: 30px;
+  transition: transform 0.2s;
+}
+
+.Start:hover {
+  background-color: #800080; 
+  border-radius: 4px;
+  transform: scale(0.9);
+}
+
+.second-page {
+  font-family: 'Courier New';
+  font-weight: bold;
+  font-size: 20px;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh;
+  text-align: center;  
+}
+
+.third-page {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  height: 100vh;
+  max-width: 1200px; 
+  margin: 0 auto; 
+  gap: 150px;
+}
+
+
+.third-page-photos {
+  font-family: 'Courier New';
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.third-page-text {
+  font-family: 'Courier New';
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  max-width: 600px;
+}
+
+.fourth-page {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  height: 100vh;
+  max-width: 1200px; 
+  margin: 0 auto; 
+  gap: 150px;
+}
+
+
+.fourth-page-left {
+  font-family: 'Courier New';
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.fourth-page-right {
+  font-family: 'Courier New';
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  max-width: 600px;
+}
